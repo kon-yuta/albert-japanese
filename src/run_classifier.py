@@ -22,10 +22,10 @@ from __future__ import print_function
 
 import os
 import time
-from ALBERT import classifier_utils
-from ALBERT import fine_tuning_utils
-from ALBERT import modeling
-from ALBERT import tokenization
+import classifier_utils
+import fine_tuning_utils
+import modeling
+import tokenization
 import tensorflow.compat.v1 as tf
 from tensorflow.contrib import cluster_resolver as contrib_cluster_resolver
 from tensorflow.contrib import tpu as contrib_tpu
